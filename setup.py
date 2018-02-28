@@ -18,7 +18,7 @@ reqs = [str(ir.req) for ir in install_reqs]
 setup(
     name='neo-python-TESTDEPLOY',
     python_requires='>=3.4, <3.6',
-    version='0.4.15-dev',
+    version='0.4.15',
     description="Python Node and SDK for the NEO blockchain",
     long_description=readme,
     author="Thomas Saunders",
