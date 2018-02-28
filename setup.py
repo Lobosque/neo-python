@@ -16,7 +16,7 @@ install_reqs = parse_requirements('requirements.txt', session=PipSession())
 reqs = [str(ir.req) for ir in install_reqs]
 
 setup(
-    name='neo-python',
+    name='neo-python-TESTDEPLOY',
     python_requires='>=3.4, <3.6',
     version='0.4.10',
     description="Python Node and SDK for the NEO blockchain",
