@@ -23,6 +23,7 @@ deploy:
   password:
     secure: Uroh59gdV/2nD1BZgTeafHSWhFRxpQzQzYCVzPj8gm1FHOL7XlXlxAiql2jUEsU6GeCEXgFLxDBSPXDUhlCKPZSEI6jlGXshFFKDBCyTu+eqtIId4AEOG50VFAvy4kmuqVnJE3tiL34VCtIc4VkpV8c96OcUz4l9HaULgTqXVuqMli//8Zobi3lQUaQt//j/rT9KlCkoIlyGSfJMRfxoJkkKOmTde7t8lAIzEubPMgYPSjxZPq4/EJpxT7ZZCTsjF1FgUXcnZCKm40LrFcsfPEy6Y9/bvxT/V9G3ES7NnnxpWvLrHT+wnzBzliMIrTCyYj0NlxMxTdjadWy/zHH1MRTMVHopFmm/77YTk1TJ2bveBCqbHTIO5lpWzVtsXCbiNp1OHEWv1+qZWqdG5osIV8n8iblhwf4dig2Z+TVz9SpLatKsg82RmEqQezsFOHaBBRFrCziQnsdDukCN0BtPztYZbgQJhSnelHyJNFNiIde+D3hqF0JhOkObwy6SirkN6cqS7tUC9LPAf7aTK+uM1QIIB+JLGfyQ+tmD7kDK8g0V86JoAnYJSeQtW6R4j/8iNLw/xIJpyepzZZMHpn3EBsRzqnLs0Gz7mVFgQ0qJzFmwMWBMYVM7lWz48CfDzRq/2ONG6dSMyMMJtNnqHUg2ug3ZDuXbP+kxwlOLG3jhXeU=
   on:
+    all_branches: true
     tags: true
     repo: Lobosque/neo-python
     python: 3.5
