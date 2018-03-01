@@ -33,6 +33,5 @@ deploy:
     secure: SECURE_PASSWORD_HERE
   on:
     tags: true
-    all_branches: true
     repo: CityOfZion/neo-python
 python: 3.5
